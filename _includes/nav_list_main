@@ -13,6 +13,14 @@
                         style="font-family:'Cafe24Oneprettynight';">개</style>
         </li>
         <li>
+            <span class="nav__sub-title">C/C++/C#</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "CLang" %}
+                <li><a href="/categories/clang" class="">C언어 ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
             <!--span 태그로 카테고리들을 크게 분류 ex) Blog Test-->
             <span class="nav__sub-title">JavaScript</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
@@ -54,7 +62,15 @@
             <ul>
                 {% for category in site.categories %}
                 {% if category[0] == "Spring" %}
-                <li><a href="/categories/java" class="">Spring ({{category[1].size}})</a></li>
+                <li><a href="/categories/spring" class="">Spring ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <span class="nav__sub-title">Python</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Python" %}
+                <li><a href="/categories/python" class="">Python ({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
