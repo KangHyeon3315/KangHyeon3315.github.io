@@ -83,7 +83,23 @@
                 {% endfor %}
             </ul>
 
+            <span class="nav__sub-title">Game</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "UnrealEngine" %}
+                <li><a href="/categories/unreal" class="">Unreal Engine ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+
             <span class="nav__sub-title">etc</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Database" %}
+                <li><a href="/categories/database" class="">Database ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                 {% if category[0] == "Git" %}
