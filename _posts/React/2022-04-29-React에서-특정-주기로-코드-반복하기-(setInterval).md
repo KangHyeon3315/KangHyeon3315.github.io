@@ -14,11 +14,13 @@ date: 2022-04-29
 last_modified_at: 2022-04-29
 ---
 
-    class MyComponent extends Component {
-        componentDidMount() {
-            const interverId = setInterval(() => {
-                // 반복할 코드 작성
-            }, 1000)  // ms 단위
-        }
-        ...
+```javascript
+class MyComponent extends Component {
+    componentDidMount() {
+        const interverId = setInterval(() => {
+            // 반복할 코드 작성
+        }, 1000)  // ms 단위
     }
+    ...
+}
+```

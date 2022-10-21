@@ -31,9 +31,11 @@ last_modified_at: 2022-04-29
 
 그래서 한번 명령어를 따라 해보면 다음과 같이 오류가 발생합니다.
 
-    cd 생성중인 프로젝트/ios
-    sudo arch -x86_64 gem install ffi
-    arch -x86_64 pod install
+```text
+cd 생성중인 프로젝트/ios
+sudo arch -x86_64 gem install ffi
+arch -x86_64 pod install
+```
 
 ![](../../assets/images/M1MacCocoapods/스크린샷_2022-04-29_오후_9.18.59.png)
 
@@ -41,10 +43,12 @@ last_modified_at: 2022-04-29
 
 결국 마지막에 해결했는데 해결 방법은 pod repo update 또한 x86_64로 실행하는 방법입니다.
 
-    cd 생성중인 프로젝트/ios
-    sudo arch -x86_64 gem install ffi
-    arch -x86_64 pod repo update
-    arch -x86_64 pod install
+```text
+cd 생성중인 프로젝트/ios
+sudo arch -x86_64 gem install ffi
+arch -x86_64 pod repo update
+arch -x86_64 pod install
+```
 
 ![](../../assets/images/M1MacCocoapods/스크린샷_2022-04-29_오후_9.20.37.png)
 

@@ -19,38 +19,45 @@ last_modified_at: 2022-05-01
 
 우선 패키지 설치 명령어는 다음과 같습니다.
 
-    npm install styled-components
+```text
+npm install styled-components
+```
 
 # 기본 문법
 
 1. html 엘리먼트 스타일링 하기
 
+```javascript
+import styled from "styled-components";
 
-    import styled from "styled-components";
-
-    const StyledButton = styled.button`
-        해당 버튼에 대한 css 내용
-    `;
+const StyledButton = styled.button`
+    해당 버튼에 대한 css 내용
+`;
+```
 
 2. React 컴포넌트 스타일링 하기
 
-    import styled from "styled-components";
-    import MyComponent from "./MyComponent";
-    
-    const StyledMyComponent = styled(MyComponent)`
-        MyComponent에 대한 css 내용
-    `;
+```javascript
+import styled from "styled-components";
+import MyComponent from "./MyComponent";
+
+const StyledMyComponent = styled(MyComponent)`
+    MyComponent에 대한 css 내용
+`;
+```
 
 # 가변 스타일링
 
 스타일이 적용된 컴포넌트도 컴포넌트이기 때문에 다음과 같이 props를 통해 값 전달이 가능합니다. 이 경우 그 아래 코드와 같이 props를 이용해 css 값을 동적으로 적용 가능합니다.
 
-    import styled from "styled-components";
-    
-    const StyledButton = styled.button`
-        width: ${(props)=>props.width || "100px"};
-    `;
+```javascript
+import styled from "styled-components";
 
-​
+const StyledButton = styled.button`
+    width: ${(props)=>props.width || "100px"};
+`;
+```
 
-    <StyledButton width="200px"> MyButton </StyledButton>
+```javascript
+<StyledButton width="200px"> MyButton </StyledButton>
+```

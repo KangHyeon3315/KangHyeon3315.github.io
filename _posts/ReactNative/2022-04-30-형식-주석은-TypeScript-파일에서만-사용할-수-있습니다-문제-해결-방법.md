@@ -26,7 +26,9 @@ React Native 프로젝트를 생성하면 app.js에서 바로 빨간 줄이 나�
 
 ![](../../assets/images/형식주석은-TypeScript-파일에서만-사용할-수-있습니다/스크린샷_2022-04-30_오후_9.59.51.png)
 
-    "javascript.validate.enable" : false
+```json
+"javascript.validate.enable" : false
+```
 
 ![](../../assets/images/형식주석은-TypeScript-파일에서만-사용할-수-있습니다/스크린샷_2022-04-30_오후_10.00.04.png)
 

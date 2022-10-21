@@ -20,11 +20,15 @@ React Native를 설치하다 보니 Android SDK licenses 때문에 안드로이�
 
 윈도우에서는 cmd 창에 다음과 같이 입력하면 되고
 
-    %ANDROID_HOME%\tools\bin\sdkmanager.bat --licenses
+```text
+%ANDROID_HOME%\tools\bin\sdkmanager.bat --licenses
+```
 
 mac에서는 terminal에 다음과 같이 입력하면 됩니다.
 
-    yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
+```text
+yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
+```
 
 <br/>
 출처 : 
