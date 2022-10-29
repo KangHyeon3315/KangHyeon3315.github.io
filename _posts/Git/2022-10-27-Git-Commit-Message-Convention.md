@@ -1,6 +1,6 @@
 ---
 title:  "Git Commit 메시지 규칙"
-excerpt: "Git 첫 글쓰기 테스트 123"
+excerpt: ""
 
 categories:
 - Git
