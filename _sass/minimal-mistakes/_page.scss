@@ -328,7 +328,13 @@ body {
    Page taxonomy
    ========================================================================== */
 
+.archive-post-title {
+  text-decoration: none;
+}
+
 .page__taxonomy {
+  margin: 5px;
+
   .sep {
     display: none;
   }
@@ -338,12 +344,22 @@ body {
   }
 }
 
+.page__taxonomy-item-category, .page__taxonomy-item-tag {
+  text-decoration: none;
+  padding: 0.5em;
+  border: solid 1px mix(#000, $border-color, 25%);
+  border-radius: 0.5em;
+  color: $text-color;
+}
+
 .page__taxonomy-item {
   display: inline-block;
   margin-right: 5px;
-  margin-bottom: 8px;
+  margin-bottom: 0;
   padding: 5px 10px;
+  font-size: $type-size-6;
   text-decoration: none;
+  color: $text-color;
   border: 1px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;
 
