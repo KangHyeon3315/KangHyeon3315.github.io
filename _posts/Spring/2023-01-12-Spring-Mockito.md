@@ -11,8 +11,8 @@ tags:
 toc: true
 toc_sticky: true
 
-date: 2023-01-11
-last_modified_at: 2023-01-11
+date: 2023-01-12
+last_modified_at: 2023-01-12
 ---
 
 # Mockito란?
@@ -127,3 +127,7 @@ void myTest() {
 
 
 ```
+
+
+# 출처
+[Mockito란? Mockito 사용하기 - 책 읽는 개발자 - 티스토리](https://scshim.tistory.com/439)
