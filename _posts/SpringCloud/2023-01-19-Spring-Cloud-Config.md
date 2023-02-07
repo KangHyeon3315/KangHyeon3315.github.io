@@ -4,7 +4,7 @@ excerpt: ""
 
 categories:
 
-- Spring
+- SpringCloud
 tags:
 - [MicroService, Cloud, Config]
 
