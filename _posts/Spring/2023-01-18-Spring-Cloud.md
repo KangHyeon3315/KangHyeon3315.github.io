@@ -83,7 +83,7 @@ Spring cloud는 분산 시스템에서 일부 공동 패턴을 빠르게 만들 
 
 # Spring Cloud의 주요 프로젝트
 
-- Spring Cloud Config
+- [Spring Cloud Config](../Spring-Cloud-Config/)
 
 	Git Repository에서 중앙화된 Configuration을 관리하는 기능을 제공합니다. Configuration flthtmsms 스프링 환경에 직접 매핑되고, 스프링이 아닌 어플리케이션에도 Configuration을 사용할 수 있도록 구현할 수 있습니다
 	
@@ -91,13 +91,23 @@ Spring cloud는 분산 시스템에서 일부 공동 패턴을 빠르게 만들 
 
 	다양한 Netflix OSS 구성 요소(Eureka, Hystrix, Zuul, Archaius 등)와 통합된 프로젝트입니다.
 
-	- Eureka : 
+	- Eureka : Discovery Server
 
-	- Hystrix :
+		각각의 서비스 인스턴스들이 동적으로 확장 및 축소 되더라도 인스턴스의 상태를 하나의 서비스로 관리할 수 있는 서비스
 
-	- Zuul : 
+	- Hystrix : Circuit Breaker
 
-	- Archaius :  
+		특정 서비스가 과부하가 걸려 서비스 장애를 전파하는 특성을 해결하려는 기능
+
+	- Zuul : API Gateway
+
+		각각의 마이크로 서비스의 종단점을 연결하는 리버스 프록시
+
+	- Archaius : Spring Boot external config + Spring cloud config
+
+		다양한 소스에서 config 프로퍼티를 수집하고 안전하게 액세스하는 기능을 제공하는 기능
+
+
 
 - Spring Cloud Bus
 
