@@ -48,9 +48,9 @@ React Native로 IOS 앱을 개발하기 위해서는 xcode가 반드시 필요�
 
 그다음 Preferences - Locations - Command Line Tools 에서 Xcode를 선택해줍니다.
 
-![](../../assets/images/MacOS-ReactNativeInstall/스크린샷_2021-12-23_오후_10.10.07.png)
+![](../../assets/images/reactnative/MacOS-ReactNativeInstall/스크린샷_2021-12-23_오후_10.10.07.png)
 
-![](../../assets/images/MacOS-ReactNativeInstall/스크린샷_2021-12-23_오후_10.10.34.png)
+![](../../assets/images/reactnative/MacOS-ReactNativeInstall/스크린샷_2021-12-23_오후_10.10.34.png)
 
 그리고 cocoapods이라는 의존성 관리자를 추가적으로 설치해 줍니다.
 
@@ -112,7 +112,7 @@ source ~/.zshrc
 adb --version
 ```
 
-![](../../assets/images/MacOS-ReactNativeInstall/스크린샷_2021-12-23_오후_9.59.00.png)
+![](../../assets/images/reactnative/MacOS-ReactNativeInstall/스크린샷_2021-12-23_오후_9.59.00.png)
 
 # 7. 프로젝트 생성
 
@@ -133,4 +133,4 @@ npm run ios
 
 |                                               IOS                                                | Android |
 |:------------------------------------------------------------------------------------------------:| :---: |
-| <img src="../../assets/images/MacOS-ReactNativeInstall/스크린샷_2021-12-23_오후_10.22.51.png" alt=""/> | <img src="../../assets/images/MacOS-ReactNativeInstall/스크린샷_2021-12-23_오후_10.45.25.png" alt="" /> |
+| <img src="../../assets/images/reactnative/MacOS-ReactNativeInstall/스크린샷_2021-12-23_오후_10.22.51.png" alt=""/> | <img src="../../assets/images/reactnative/MacOS-ReactNativeInstall/스크린샷_2021-12-23_오후_10.45.25.png" alt="" /> |

@@ -26,9 +26,9 @@ Type : Maven
 
 우선 새로운 프로젝트를 생성합니다.
 
-![](../../assets/images/SpringRestAPI-프로젝트-만들기/스크린샷_2022-05-06_오후_5.22.44.png)
+![](../../assets/images/spring/SpringRestAPI-프로젝트-만들기/스크린샷_2022-05-06_오후_5.22.44.png)
 
-![](../../assets/images/SpringRestAPI-프로젝트-만들기/스크린샷_2022-05-06_오후_5.25.34.png)
+![](../../assets/images/spring/SpringRestAPI-프로젝트-만들기/스크린샷_2022-05-06_오후_5.25.34.png)
 
 이제 기본적인 Dependency를 설치해야 하는데 우선 기본적인 것만 설치하겠습니다.
 
@@ -38,7 +38,7 @@ Type : Maven
 
 - Spring Web : Spring의 Rest Service를 제공할 수 있게 도와줍니다.
 
-![](../../assets/images/SpringRestAPI-프로젝트-만들기/스크린샷_2022-05-06_오후_5.28.30.png)
+![](../../assets/images/spring/SpringRestAPI-프로젝트-만들기/스크린샷_2022-05-06_오후_5.28.30.png)
 
 이제 위에서 설치한 Lombok을 위한 프로젝트 활성화를 진행해 주겠습니다.
 
@@ -46,11 +46,11 @@ Preferences -> Build, Execution, Deployment -> Compiler -> Annotation Processor 
 
 그리고 Enable annotation processing을 체크해 줍니다.
 
-![](../../assets/images/SpringRestAPI-프로젝트-만들기/스크린샷_2022-05-06_오후_5.29.53.png)
+![](../../assets/images/spring/SpringRestAPI-프로젝트-만들기/스크린샷_2022-05-06_오후_5.29.53.png)
 
 이제 실행하면 다음과 같이 Application을 실행하면 다음과 같이 실행이 됩니다.
 
-![](../../assets/images/SpringRestAPI-프로젝트-만들기/스크린샷_2022-05-06_오후_5.34.15.png)
+![](../../assets/images/spring/SpringRestAPI-프로젝트-만들기/스크린샷_2022-05-06_오후_5.34.15.png)
 
 이제 Rest Controller를 구현해 보겠습니다.
 

@@ -173,14 +173,14 @@ $ cat myKey # 개인키 확인
     Github에서 Setting > SSH and GPG Keys > New SSH Key를 눌러 공개키를 등록해줍니다.
 
 
-    <img src='../../assets/images/Spring-cloud/SSH키등록.png'>
+    <img src='../../assets/images/SpringCloud/MicroService-Config-Server/SSH키등록.png'>
 
 
 3. application.yml 수정하기
 
     이제 application.yml에 개인키를 추가해주고 uri를 HTTP 주소에서 SSH 주소로 수정해줍니다.
 
-    <img src='../../assets/images/Spring-cloud/SSH주소복사.png' style='width:400px'>
+    <img src='../../assets/images/SpringCloud/MicroService-Config-Server/SSH주소복사.png' style='width:400px'>
 
 
     ```yml
@@ -296,8 +296,8 @@ public class ConfigController {
 
 | 위치 | 결과 |
 | :-----: | :---: |
-| Git <br/> 원본 | <img src='../../assets/images/Spring-cloud/Config원본.png'> |
-| Client  | <img src='../../assets/images/Spring-cloud/CloudConfigTest.png'> |
+| Git <br/> 원본 | <img src='../../assets/images/SpringCloud/MicroService-Config-Server/Config원본.png'> |
+| Client  | <img src='../../assets/images/SpringCloud/MicroService-Config-Server/CloudConfigTest.png'> |
 
 # 출처
 

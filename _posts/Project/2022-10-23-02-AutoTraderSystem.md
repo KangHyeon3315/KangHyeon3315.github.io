@@ -96,11 +96,11 @@ last_modified_at: 2022-10-23
 
 그리고 향후 남은 여백에 실시간 거래 현황을 시각화해 추가할 예정입니다.
 
-![](../../assets/images/ATS중간정리/기본 홈화면.png)
+![](../../assets/images/Project/ATS중간정리/기본 홈화면.png)
 
 그리고 우측 상단의 Light 버전을 누르면 다음과 같이 Light Mode로 변경이 가능하도록 구현했습니다
 
-![](../../assets/images/ATS중간정리/Light모드.png)
+![](../../assets/images/Project/ATS중간정리/Light모드.png)
 
 ## 분석 화면
 
@@ -108,13 +108,13 @@ last_modified_at: 2022-10-23
 
 이때 마우스 휠을 굴려 확대 및 축소가 가능하도록 구현했고, 마우스를 드래그해 이전 데이터를 확인 하고, 끝까지 드래그 한 경우 이전 데이터 또는 이후 데이터를 요청해 시각화하도록 구현했습니다.
 
-![](../../assets/images/ATS중간정리/차트분석 기본 화면.png)
+![](../../assets/images/Project/ATS중간정리/차트분석 기본 화면.png)
 
 이때 죄측 상단의 검색창을 이용해 다음과 같이 종목을 검색 및 선택 가능하고 화살표 버튼을 눌러 이전 종목 또는 이후 종목을 분석 할 수 있습니다.
 
 <div align="center">
-  <img src="../../assets/images/ATS중간정리/차트분석 코드 검색 기능(기본).png" width="41%" alt=""/>
-  <img src="../../assets/images/ATS중간정리/차트분석 코드 검색 기능.png" width="49%" alt="" />
+  <img src="../../assets/images/Project/ATS중간정리/차트분석 코드 검색 기능(기본).png" width="41%" alt=""/>
+  <img src="../../assets/images/Project/ATS중간정리/차트분석 코드 검색 기능.png" width="49%" alt="" />
 </div>
 
 검색창을 클릭하면 좌측 이미지와 같이 종목들을 보여줍니다.
@@ -123,29 +123,29 @@ last_modified_at: 2022-10-23
 
 또, 검색 창 옆에 있는 Indicator 버튼을 누르면 다음과 같이 보조지표 선택 화면이 나타납니다.
 
-![](../../assets/images/ATS중간정리/보조지표 선택 화면.png)
+![](../../assets/images/Project/ATS중간정리/보조지표 선택 화면.png)
 
 이때 원하는 보조지표를 추가하거나, 기존에 추가한 보조지표를 수정할 수 있습니다.
 
 그리고 다음 이미지와 같이 프리셋 저장/불러오기를 클릭해 추가한 보조지표들을 프리셋으로 저장하고 불러올 수 있도록 구현했습니다.
 
-![](../../assets/images/ATS중간정리/보조지표 프리셋 저장 및 불러오기.png)
+![](../../assets/images/Project/ATS중간정리/보조지표 프리셋 저장 및 불러오기.png)
 
 또 우측 상단에 있는 시간 단위를 선택하면 다음과 같이 여러 시간 단위를 동시에 분석 할 수 있도록 구현했습니다.
 
 이때 드래그하며 이전/이후 데이터를 확인하는 경우 다른 시간 단위의 차트도 동기화 해 같은 시간대를 확인 하도록 구현했습니다.
 
-![](../../assets/images/ATS중간정리/차트분석 여러 단위 분석.png)
+![](../../assets/images/Project/ATS중간정리/차트분석 여러 단위 분석.png)
 
 그리고 그 옆에 있는 도구 버튼을 클릭해 다음 과 같이 주석을 추가하도록 구현했습니다.
 
-![](../../assets/images/ATS중간정리/차트분석 도구.png)
+![](../../assets/images/Project/ATS중간정리/차트분석 도구.png)
 
 ## 전략 화면 (수정중)
 
 헤더에서 Strategy 탭을 누르면 다음과 같이 전략 목록을 보여줍니다.
 
-![](../../assets/images/ATS중간정리/전략 목록.png)
+![](../../assets/images/Project/ATS중간정리/전략 목록.png)
 
 이때 작성하기 버튼을 눌러 새로운 전략을 만들거나 기존의 전략을 클릭해 전략을 수정할 수 있습니다.
 
@@ -155,22 +155,22 @@ last_modified_at: 2022-10-23
 
 그리고 우측 하단에서 거래 전략의 행동 방식을 프로그래밍 언어와 같이 작성하도록 구현하면 해당 코드를 해석해 동작하도록 구현중입니다.
 
-![](../../assets/images/ATS중간정리/전략 편집 예시.png)
+![](../../assets/images/Project/ATS중간정리/전략 편집 예시.png)
 
 이때 데이터 및 변수 정의 또는 행동을 정의하는 편집 화면에서 IDE와 같이 자동완성 기능을 구현했습니다.
 
-![](../../assets/images/ATS중간정리/전략 자동완성 기능.png)
+![](../../assets/images/Project/ATS중간정리/전략 자동완성 기능.png)
 
 ## 시뮬레이션 화면
 
 헤더에서 Simulate 탭을 누르면 다음과 같은 화면이 나타납니다.
 
-![](../../assets/images/ATS중간정리/시뮬레이션 기본 화면.png)
+![](../../assets/images/Project/ATS중간정리/시뮬레이션 기본 화면.png)
 
 이때 우측 상단에서 시뮬레이트를 선택 할 수 있고, 우측 하단에서 다음과 같이 시뮬레이트 환경을 확인하거나 설정할 수 있습니다.
 
 <div align="center">
-  <img src="../../assets/images/ATS중간정리/시뮬레이트 환경 설정.png" alt="" width="296"/>
+  <img src="../../assets/images/Project/ATS중간정리/시뮬레이트 환경 설정.png" alt="" width="296"/>
 </div>
 
 
@@ -180,7 +180,7 @@ last_modified_at: 2022-10-23
 
 우선 시뮬 정보 탭을 눌러 기본적인 분석 정보와 자산의 변화 현황을 확인 할 수 있도록 구현했습니다. 
 
-![](../../assets/images/ATS중간정리/시뮬레이트 기본 정보 분석.png)
+![](../../assets/images/Project/ATS중간정리/시뮬레이트 기본 정보 분석.png)
 
 그리고 전략이 잘 거래하는지 확인하기 위해 시뮬레이트 거래 기록을 분석 할 수 있습니다.
 
@@ -188,13 +188,13 @@ last_modified_at: 2022-10-23
 
 그리고 상단에서 분석 활용을 재사용해 언제 매수했고, 언제 매도했는지 시각적으로 구현했습니다. 
 
-![](../../assets/images/ATS중간정리/시뮬레이트 거래 기록 분석.png)
+![](../../assets/images/Project/ATS중간정리/시뮬레이트 거래 기록 분석.png)
 
 이후 분석 정보 탭으로 이동하면 
 
 전략이 매수 후 특정 가격에 무조건 팔도록 구현해서 단순하지만 아래 이미지와 같이 분석 할 수 있도록 구현했습니다.  
 
-![](../../assets/images/ATS중간정리/시뮬레이트 분석정보.png)
+![](../../assets/images/Project/ATS중간정리/시뮬레이트 분석정보.png)
 
 ## 거래 화면 (향후 구현 예정)
 
