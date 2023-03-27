@@ -25,33 +25,33 @@ OAuth 2.0은 구글, 페이스북, 깃헙, 카카오 등 다양한 기업의 로
 
 우선 [Google Cloud](https://console.cloud.google.com/apis/dashboard?pli=1&project=teammatch)에 접속해 프로젝트를 등록해야 합니다.
 
-<img src='../../assets/images/spring/oauth/project_select.png'>
+<img src='../../assets/images/Spring/oauth/project_select.png'>
 
-<img src='../../assets/images/spring/oauth/new_project.png'>
+<img src='../../assets/images/Spring/oauth/new_project.png'>
 
 그리고 `API 및 서비스`를 선택해 OAuth 동의 화면으로 넘어가 아래 사진과 같이 입력합니다.
 
-<img src='../../assets/images/spring/oauth/OAuth-동의화면1.png'>
+<img src='../../assets/images/Spring/oauth/OAuth-동의화면1.png'>
 
-<img src='../../assets/images/spring/oauth/OAuth-동의화면2.png'>
+<img src='../../assets/images/Spring/oauth/OAuth-동의화면2.png'>
 
 `범위 추가 또는 삭제`를 클릭해 어떤 데이터에 액세스할지 범위를 설정합니다.
 
-<img src='../../assets/images/spring/oauth/select-data1.png'>
+<img src='../../assets/images/Spring/oauth/select-data1.png'>
 
-<img src='../../assets/images/spring/oauth/select-data2.png'>
+<img src='../../assets/images/Spring/oauth/select-data2.png'>
 
 그 다음 사용자 인증 정보를 만들기 위해 `사용자 인증 정보` > `사용자 인증 정보 만들기` > `OAuth 클라이언트 ID`를 선택합니다.
 
-<img src='../../assets/images/spring/oauth/OAuth-client-id1.png'>
+<img src='../../assets/images/Spring/oauth/OAuth-client-id1.png'>
 
 애플리케이션 유형, 이름, 리다이렉션 URI를 설정해줍니다.
 
-<img src='../../assets/images/spring/oauth/OAuth-client-id2.png'>
+<img src='../../assets/images/Spring/oauth/OAuth-client-id2.png'>
 
 그러면 다음과 같이 클라이언트 ID, 클라이언트 비밀번호를 얻을 수 있습니다.
 
-<img src='../../assets/images/spring/oauth/client-id-generated.png'>
+<img src='../../assets/images/Spring/oauth/client-id-generated.png'>
 
 이제 해당 값들을 이용해 인증하는 기능을 구현할 수 있습니다.
 
@@ -418,11 +418,11 @@ public class IndexController {
 
 이제 [http://localhost:8080](http://localhost:8080)에 접속하면 다음과 같이 Google Login 버튼이 나타나고 클릭합니다.
 
-<img src='../../assets/images/spring/oauth/LoginBtn.png'>
+<img src='../../assets/images/Spring/oauth/LoginBtn.png'>
 
 클릭시 구글 로그인 화면으로 이동하고 로그인시 아래 화면처럼 로그인 성공 화면으로 이동합니다.
 
-<img src='../../assets/images/spring/oauth/LoginedBtn.png'>
+<img src='../../assets/images/Spring/oauth/LoginedBtn.png'>
 
 <br/>
 
