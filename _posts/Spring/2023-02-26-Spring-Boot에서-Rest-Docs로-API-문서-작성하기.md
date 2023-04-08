@@ -338,7 +338,7 @@ public class CompositeControllerImplTest {
 
 이때, 테스트 결과가 다르다면 다음과같이 에러가 발생하게 됩니다. 따라서 API 최신화가 강제됩니다.
 
-<img src='../../assets/images/Spring-cloud/MicroService-Docs/Test결과가-다른경우.png'>
+<img src='../../assets/images/Spring-cloud/docs/Test결과가-다른경우.png'>
 
 <br/>
 
@@ -346,7 +346,7 @@ public class CompositeControllerImplTest {
 
 테스트 결과가 같다면 다음과 같이 문제없이 테스트가 통과되는 것을 알 수 있습니다.
 
-<img src='../../assets/images/Spring-cloud/MicroService-Docs/Test결과가-같은경우.png'>
+<img src='../../assets/images/Spring-cloud/docs/Test결과가-같은경우.png'>
 
 <br/>
 
@@ -354,7 +354,7 @@ public class CompositeControllerImplTest {
 
 그리고 다음과 같이 adoc snippets가 생기는 것을 확인 가능합니다.
 
-<img src='../../assets/images/Spring-cloud/MicroService-Docs/snippets-result.png'>
+<img src='../../assets/images/Spring-cloud/docs/snippets-result.png'>
 
 <br/>
 
@@ -386,7 +386,7 @@ include::{snippets}/composite/response-fields.adoc[]
 As you can see the format is very simple, and in fact you always get the same message.
 ```
 
-<img src='../../assets/images/Spring-cloud/MicroService-Docs/adoc-result.png'>
+<img src='../../assets/images/Spring-cloud/docs/adoc-result.png'>
 
 <br/>
 
@@ -396,7 +396,7 @@ adoc 파일을 전부 작성했다면 `./gradlew build` 명령어를 통해 다�
 
 그러면 다음과 같이 `resources/static`에 html 파일이 생긴 것을 확인할 수 있습니다.
 
-<img src='../../assets/images/Spring-cloud/MicroService-Docs/document-html-result.png'>
+<img src='../../assets/images/Spring-cloud/docs/document-html-result.png'>
 
 <br/>
 
@@ -404,7 +404,7 @@ adoc 파일을 전부 작성했다면 `./gradlew build` 명령어를 통해 다�
 
 이제 `http://localhost:8000/index.html`를 통해 document를 확인할 수 있습니다.
 
-<img src='../../assets/images/Spring-cloud/MicroService-Docs/restdocs-result.png'>
+<img src='../../assets/images/Spring-cloud/docs/restdocs-result.png'>
 
 <br/>
 
