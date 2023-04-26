@@ -20,7 +20,7 @@ title                    : "손강현의 Git Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "손강현"
-description              : "안녕하세요 개발을 좋아하는 대학생입니다."
+description              : "안녕하세요 개발을 좋아하는 대학생입니다. \n 블로그 다음 주소로 이전했습니다. https://play-with-dev.tistory.com/"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "손강현"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "안녕하세요 개발을 좋아하는 대학생입니다."
+  bio              : "안녕하세요 개발을 좋아하는 대학생입니다. <br/> 블로그 다음 주소로 이전했습니다. https://play-with-dev.tistory.com/"
   location         : "Seoul, South Korea"
   email            :
   links:
